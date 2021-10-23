@@ -2,7 +2,7 @@
 
   @media (max-width: 1199px) {
     &__wrapper {
-      gap: 54px;
+      gap: 47px;
     }
     &__skills {
       grid-template-columns: calc(100% - 14px);
@@ -15,7 +15,9 @@
     }
     &__photo {
       display: none;
-      // justify-self: center;
+    }
+    &__skills {
+      grid-template: repeat(1, 1fr) /  515px;
     }
   }
   @media (max-width: 575px) {

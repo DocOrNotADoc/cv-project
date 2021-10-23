@@ -1,4 +1,5 @@
 .skills {
+  background-color: $bgc;
   &__list {
     display: grid;
     grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
@@ -26,10 +27,10 @@
   }
   &__skales-list {
     display: grid;
-    grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 1fr);
+    grid-template: repeat(2, minmax(70px, auto)) / repeat(2, 350px);
     grid-auto-rows: minmax(70px, auto);
     row-gap: 30px;
-    column-gap: 45px;
+    column-gap: 55px;
     justify-content: center;
   }
   &__skale {
