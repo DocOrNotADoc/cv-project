@@ -10,8 +10,10 @@
         grid-column: auto;
       }
       .horizontal {
-        grid-row: auto;
-        grid-column: auto;
+        &-l, &-r, &-c {
+          grid-row: auto;
+          grid-column: auto;
+        }
       }
     }
     &__item {
