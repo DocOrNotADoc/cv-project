@@ -25,9 +25,12 @@
   &__info {
     &-item {
       display: grid;
-      grid-template: 20px / 20px auto;
+      grid-template: 20px / 30px auto;
       gap: 10px;
-      margin: 12px 0 0 10px;
+      max-width: 550px;
+      // span {
+      //   font-weight: 700;
+      // }
       &:hover {
         img {
           transform: scale(1.2);
