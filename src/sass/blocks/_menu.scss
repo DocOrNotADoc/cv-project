@@ -30,6 +30,11 @@
     top: 24px;
     right: 25px;
     cursor: pointer;
+    svg{
+      path{
+        fill: $darkfont;
+      }
+    }
     &:hover {
       transform: scale(1.15);
       transition: $transition;
@@ -43,6 +48,12 @@
     display: flex;
     a {
       margin: 0 7px;
+      // стоит ли? или оставить иконки соцсетей и крестик черными вне зависимости от темы? Можно будет СВГху из HTML убрать
+      svg{
+        path{
+          fill: $darkfont;
+        }
+      }
       span {
         font-weight: 700;
       }

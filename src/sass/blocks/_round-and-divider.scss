@@ -28,6 +28,11 @@
     &:before {
       left: 0;
     }
+    svg{
+      path{
+        fill: $darkfont;
+      }
+    }
   }
   &_center {
       padding-top: 7px;

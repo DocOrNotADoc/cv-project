@@ -11,6 +11,9 @@
   z-index: 8;
   &__link {
     transform: rotate(-90deg);
+    svg path{
+      fill: $darkfont;
+    }
     &:hover {
       transform: scale(1.3) rotate(-90deg);
       transition: $transition;
@@ -25,7 +28,7 @@
   &__divider {
     width: 2px;
     height: 70px;
-    background-color: #000;
+    background-color: $darkfont;
   }
   &__text {
     width: 24px;

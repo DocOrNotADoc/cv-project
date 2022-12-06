@@ -31,18 +31,31 @@
       // span {
       //   font-weight: 700;
       // }
+      // &:hover {
+      //   img {
+      //     transform: scale(1.2);
+      //     transition: $transition;
+      //   }
+      // }
       &:hover {
-        img {
-          transform: scale(1.2);
+        span {
+          transform: scale(1.1);
           transition: $transition;
         }
       }
-      img {
-        display: block;
-        width: 100%;
-        height: 20px;
+      // img {
+      //   display: block;
+      //   width: 100%;
+      //   height: 20px;
+      // }
+      span {
+        svg {
+          display: block;
+          width: 100%;
+          height: 20px;
+          fill: $darkfont;
+        }
       }
-
     }
   }
   &__socials {
