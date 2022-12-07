@@ -1,11 +1,25 @@
 $main-color: #FFA501;
-// $main-color: #757673;
-// $main-color: #645d33;
 
-// $darkfont: #000;
-$darkfont: green;
+$darkfont: #0e0e0e;
 $lightfont: #fff;
-// $bgc: #f5f5f6;
-$bgc: #fff;
 
 $transition: all .2s;
+
+
+// html.light{
+//   $mainfont: #0e0e0e;
+//   $bgc: #fff;
+//   $sidebgc: transparent;
+// }
+// html.dark{
+//   $mainfont: #f5f5f6;
+//   $bgc: #484847;
+//   $sidebgc: rgba($bgc, 28%);
+// }
+
+$mainfont: #0e0e0e;
+// $mainfont: #f5f5f6;
+$bgc: #fff;
+// $bgc: #484847;
+$sidebgc: transparent;
+// $sidebgc: rgba($bgc, 28%);

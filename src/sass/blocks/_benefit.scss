@@ -37,7 +37,7 @@
       height: calc(100% + 47px);
       top: -52px;
       left: -28px;
-      background-color: $darkfont;
+      background-color: $mainfont;
       z-index: 1;
     }
     &-head {
@@ -55,7 +55,7 @@
         height: 1px;
         top: 17px;
         left: -28px;
-        background-color: $darkfont;
+        background-color: $mainfont;
         z-index: 1;
       }
     }
