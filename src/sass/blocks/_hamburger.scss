@@ -14,13 +14,16 @@
   // transition: $transition;
   &:hover {
     span {
-      background-color: darken($main-color, 5%);
+      transition: $transition;
+      background-color: var(--color-main);
     }
   }
   span {
     width: 30px;
     height: 3px;
     background-color: #0e0e0e;
+    border: 1px solid var(--color-text);
+    border: 1px solid #d2c39d;
     &:nth-child(2) {
       width: 36px;
     }

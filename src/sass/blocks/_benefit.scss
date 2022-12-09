@@ -1,6 +1,6 @@
 .benefit {
   padding-bottom: 37px;
-  background-color: $bgc;
+  background-color: var(--color-bg);
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 425px);
@@ -20,7 +20,7 @@
         left: 0;
         width: 15px;
         height: 15px;
-        background-color: $main-color;
+        background-color: var(--color-main);
         border-radius: 100%;
       }
     }
@@ -37,7 +37,7 @@
       height: calc(100% + 47px);
       top: -52px;
       left: -28px;
-      background-color: $mainfont;
+      background-color: var(--color-text);
       z-index: 1;
     }
     &-head {
@@ -55,7 +55,7 @@
         height: 1px;
         top: 17px;
         left: -28px;
-        background-color: $mainfont;
+        background-color: var(--color-text);
         z-index: 1;
       }
     }

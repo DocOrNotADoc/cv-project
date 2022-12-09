@@ -1,25 +1,23 @@
-$main-color: #FFA501;
-
 $darkfont: #0e0e0e;
 $lightfont: #fff;
 
 $transition: all .2s;
 
+html.light{
+  --color-main: #FFA501;
+  --color-text: #0d1117;
+  --color-bg: #fff;
+  --color-bg-aside: transparent;
+}
+html.dark{
+  --color-main: #b97700;
+  --color-text: #d2c39d;
+  --color-bg: #1d2021;
+  --color-bg-aside: rgba(#0d1117, 94%);
+}
 
-// html.light{
-//   $mainfont: #0e0e0e;
-//   $bgc: #fff;
-//   $sidebgc: transparent;
-// }
-// html.dark{
-//   $mainfont: #f5f5f6;
-//   $bgc: #484847;
-//   $sidebgc: rgba($bgc, 28%);
-// }
-
-$mainfont: #0e0e0e;
-// $mainfont: #f5f5f6;
-$bgc: #fff;
-// $bgc: #484847;
-$sidebgc: transparent;
-// $sidebgc: rgba($bgc, 28%);
+// gruvbox
+// $bg: #1d2021;
+// $aside-bookmarks-icons: #d2c39d;
+// $top-bookmarks: #cb7621;
+// $any: #619bb3;
