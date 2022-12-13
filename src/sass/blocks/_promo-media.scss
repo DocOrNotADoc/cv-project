@@ -24,7 +24,7 @@
 
   //cell
   @media (max-width: 575px) {
-    background: url('../img/main_bg-cell.jpg') no-repeat 50% / cover;
+    background: var(--image-promo-bg-cell);
 
   }
 }

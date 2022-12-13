@@ -7,17 +7,13 @@ html.light{
   --color-main: #FFA501;
   --color-text: #0d1117;
   --color-bg: #fff;
-  --color-bg-aside: transparent;
+  --image-promo-bg: url('../img/main_bg.jpg') no-repeat 50% / cover;
+  --image-promo-bg-cell: url('../img/main_bg-cell.jpg') no-repeat 50% / cover;
 }
 html.dark{
-  --color-main: #b97700;
-  --color-text: #d2c39d;
+  --color-main: #ff7401;
+  --color-text: #fbf1c7;
   --color-bg: #1d2021;
-  --color-bg-aside: rgba(#0d1117, 94%);
+  --image-promo-bg: url('../img/main_bg_d.jpg') no-repeat 50% / cover;
+  --image-promo-bg-cell: url('../img/main_bg-cell_d.jpg') no-repeat 50% / cover;
 }
-
-// gruvbox
-// $bg: #1d2021;
-// $aside-bookmarks-icons: #d2c39d;
-// $top-bookmarks: #cb7621;
-// $any: #619bb3;

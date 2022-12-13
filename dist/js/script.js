@@ -1,3 +1,12 @@
+// theme switcher
+document.querySelector('.theme-switcher').addEventListener('change', (event) => {
+  if (event.target.nodeName === "INPUT"){
+    document.documentElement.classList.remove('dark', 'light');
+    document.documentElement.classList.add(event.target.value);
+  }
+});
+
+
 // show & hide menu, scroll block, compensate scrollbar-padding, esc menu if resize
 const burger = document.querySelector('.hamburger'),
   menu = document.querySelector('.menu'),

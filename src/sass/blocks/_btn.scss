@@ -5,7 +5,7 @@
   font-weight: 700;
   text-align: center;
   transition: $transition;
-  color: $darkfont;
+  color: var(--color-text);
   border: none;
   white-space: nowrap;
   &:hover {
@@ -16,7 +16,6 @@
     box-shadow: 0px 4px 4px rgba($darkfont, .1);
     &:hover {
       border-radius: 2px;
-      // background-color: darken(var(--color-main), 3%);
       box-shadow: 7px 5px 5px rgba($darkfont, .3);
     }
   }
