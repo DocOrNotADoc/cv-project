@@ -1,9 +1,19 @@
 // theme switcher
-document.querySelector('.theme-switcher').addEventListener('change', (event) => {
-  if (event.target.nodeName === "INPUT"){
-    document.documentElement.classList.remove('dark', 'light');
-    document.documentElement.classList.add(event.target.value);
+const themeSwitch = document.querySelector('#theme-switcher');
+
+themeSwitch.addEventListener('click', () => {
+  const docEl = document.documentElement;
+  if (docEl.classList.contains('light')){
+    docEl.classList.remove('dark', 'light');
+    docEl.classList.add('dark');
+    console.log('click');
+  } else {
+    docEl.classList.remove('dark', 'light');
+    docEl.classList.add('light');
+    console.log('pew');
   }
+
+
 });
 
 
