@@ -3,6 +3,7 @@
 
   position: relative;
   -webkit-background-clip: text;
+  width: min-content;
 
   &::before, &::after {
       content: attr(data-text);
