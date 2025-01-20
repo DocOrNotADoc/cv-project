@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="light">
+<html lang="ru" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +62,7 @@
             </svg>
         </a>
         <div class="sidepanel__divider"></div>
-        <div class="sidepanel__text"><span>Социальные сети</span></div>
+        <div class="sidepanel__text" data-lang="sidepanel-descr"><span>Социальные сети</span></div>
     </aside>
 
     <div class="hamburger">
@@ -99,11 +99,11 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#benefit">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+                    <li class="menu__link" data-lang="menu_about-me"><a href="#about">ПРО МЕНЯ</a></li>
+                    <li class="menu__link" data-lang="menu_my-experience"><a href="#benefit">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link" data-lang="menu_my-works"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link" data-lang="menu_my-skills"><a href="#skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link" data-lang="menu_contacts"><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
         </div>
@@ -113,17 +113,17 @@
     <section class="promo">
         <div class="container">
 
-            <h2 class="ttl ttl__subttl round round_left ttl__dark">Меня зовут Виктор Мальгин</h2>
-            <h1 class="ttl ttl__main-ttl promo__ttl">Я web-разработчик <br/> из города Москва</h1>
+            <h2 class="ttl ttl__subttl round round_left ttl__dark" data-lang="promo_my-name">Меня зовут Виктор Мальгин</h2>
+            <h1 class="ttl ttl__main-ttl promo__ttl" data-lang="promo_qualification">Я web-разработчик <br/> из города Москва</h1>
             <div class="promo__btns">
-                <a href="#portfolio" class="promo__link btn btn__primary">Портфолио</a>
-                <a href="#about" class="promo__link btn btn__transparent">Про меня</a>
+                <a href="#portfolio" class="promo__link btn btn__primary" data-lang="portfolio_ttl">Портфолио</a>
+                <a href="#about" class="promo__link btn btn__transparent" data-lang="about-me_ttl">Про меня</a>
             </div>
 
         </div>
 
         <div class="theme-switcher__wrapper">
-            <input type="checkbox" name="theme switcher" id="theme-switcher" aria-label="theme-switcher"/>
+            <input type="checkbox" checked name="theme switcher" id="theme-switcher" aria-label="theme-switcher"/>
             <label for="theme-switcher" class="theme-switcher">
                 <span class="theme-switcher__handler">
                     <span class="crater crater__1"></span>
@@ -149,8 +149,8 @@
                     <img src="/img/main_photo.jpg" alt="my photo">
                 </picture>
                 <div class="about__texts">
-                    <h2 class="ttl ttl__subttl round round_left">Про меня</h2>
-                    <h3 class="ttl ttl__regular divider divider_left">Меня зовут Виктор</h3>
+                    <h2 class="ttl ttl__subttl round round_left" data-lang="about-me_ttl-1">Про меня</h2>
+                    <h3 class="ttl ttl__regular divider divider_left" data-lang="about-me_name-1">Меня зовут Виктор</h3>
                     <p class="about__me">Моё предыдущее место работы связано с музыкой. Я меняю сферу работы. Для этого я много узнал и многому научился.<br>
                         HTML оказался не сложнее нотной грамоты. JS сложнее :) А библиотека React - это просто конфетка.</p>
                     <div class="about__skills">

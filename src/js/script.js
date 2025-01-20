@@ -12,8 +12,6 @@ themeSwitch.addEventListener('click', () => {
     docEl.classList.add('light');
     console.log('pew');
   }
-
-
 });
 
 

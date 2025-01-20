@@ -84,6 +84,7 @@
       font-weight: 700;
       line-height: 36px;
       color: $lightfont;
+      text-transform: uppercase;
       &:hover {
         transform: scale(1.01);
         transition: $transition;
