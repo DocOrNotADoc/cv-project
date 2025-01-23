@@ -65,7 +65,7 @@
             </svg>
         </a>
         <div class="sidepanel__divider"></div>
-        <div class="sidepanel__text" data-lang="sidepanel-descr"><span>Социальные сети</span></div>
+        <div class="sidepanel__text"><span data-lang="sidepanel-descr">Социальные сети</span></div>
     </aside>
 
     <div class="hamburger">
@@ -76,6 +76,18 @@
 
     <div class="menu">
         <div class="menu__block">
+
+            <div class="menu__dropdown">
+                <button id="language-button"></button>
+                <div class="menu__dropdown__content">
+                    <a href="#" onclick="setLanguage('ru', 'icons/flags/ru-flag-icon.svg')" data-btn="ru">
+                        <img src="icons/flags/ru-flag-icon.svg" alt="ru" class="flag">ru
+                    </a>
+                    <a href="#" onclick="setLanguage('en', 'icons/flags/en-flag-icon.svg')" data-btn="en">
+                        <img src="icons/flags/en-flag-icon.svg" alt="en" class="flag">en
+                    </a>
+                </div>
+            </div>
 
             <div class="menu__close">
                 <!-- <img src="./icons/Close.svg" alt="close menu"> -->
@@ -102,11 +114,11 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link" data-lang="menu_about-me"><a href="#about">ПРО МЕНЯ</a></li>
-                    <li class="menu__link" data-lang="menu_my-experience"><a href="#benefit">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link" data-lang="menu_my-works"><a href="#portfolio">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link" data-lang="menu_my-skills"><a href="#skills">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link" data-lang="menu_contacts"><a href="#contacts">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#about" data-lang="menu_about-me">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#benefit" data-lang="menu_my-experience">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#portfolio" data-lang="menu_my-works">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#skills" data-lang="menu_my-skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#contacts" data-lang="menu_contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
         </div>
